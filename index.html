@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Nails | Effortless Elegance, Booked Intelligently.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <a href="index.html" class="logo">Aura Nails</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="experience.html">The Aura Experience</a></li>
+                <li><a href="ai-concierge.html">Our AI Concierge</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Effortless Elegance, Booked Intelligently.</h1>
+            <p class="tagline">Where timeless elegance meets intelligent design.</p>
+            <a href="#" class="btn btn-primary" id="hero-book-now">Book Your Moment of Serenity</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <div class="container" style="max-width: 750px; text-align: center;">
+                <h2>A Sanctuary for Modern Self-Care</h2>
+                <p>Aura Nails is more than a salon; it's a philosophy. We believe in the transformative power of meticulous artistry and the quiet luxury of time well spent. Our space is designed for serenity, our services are curated for beauty, and our booking is powered by intelligence, ensuring your experience is seamless from start to finish.</p>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: var(--white);">
+            <div class="container">
+                <h2 style="text-align: center;">Discover Our Signature Treatments</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="images/service-1.jpg" alt="Artistic manicure">
+                        <div class="service-card-content">
+                            <h3>The Sculpted Gel Manicure</h3>
+                            <p>Strength and beauty, extended. Our master artists use premium gel to add length and durability to your natural nails.</p>
+                            <a href="services.html" class="btn btn-secondary">Explore Manicures</a>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/service-2.jpg" alt="Relaxing pedicure environment">
+                        <div class="service-card-content">
+                            <h3>The Restorative Pedicure</h3>
+                            <p>An immersive experience featuring an aromatic soak, gentle exfoliation, and a tension-melting massage.</p>
+                            <a href="services.html" class="btn btn-secondary">Explore Pedicures</a>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <img src="images/service-3.jpg" alt="Custom nail art design">
+                        <div class="service-card-content">
+                            <h3>Bespoke Nail Artistry</h3>
+                            <p>From minimalist accents to intricate designs, collaborate with our artists to create your unique statement.</p>
+                            <a href="services.html" class="btn btn-secondary">Explore Nail Art</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section ai-intro-section">
+            <div class="container">
+                <div class="ai-intro-content">
+                    <div class="ai-text">
+                        <h2>Meet 'Aura,' Your Personal AI Concierge.</h2>
+                        <p>Experience the future of booking. Our AI concierge, Aura, is available 24/7 to help you schedule appointments, answer questions, and manage your visits. It's effortless, intuitive, and designed to give you back your most valuable asset: time.</p>
+                        <a href="ai-concierge.html" class="btn btn-primary">Learn How It Works</a>
+                    </div>
+                    <div class="ai-visual">
+                        <img src="images/phone-mockup.png" alt="Phone showing AI chatbot interface" style="max-width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section social-proof">
+            <div class="container">
+                <h2>Artistry in Action</h2>
+                <p>Follow our journey and find inspiration on Instagram <a href="#" target="_blank">@AuraNailsOfficial</a></p>
+                <div class="instagram-gallery">
+                    <img src="images/insta-1.jpg" alt="Instagram post">
+                    <img src="images/insta-2.jpg" alt="Instagram post">
+                    <img src="images/insta-3.jpg" alt="Instagram post">
+                    <img src="images/insta-4.jpg" alt="Instagram post">
+                    <img src="images/insta-5.jpg" alt="Instagram post">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Aura Nails. A Demo Website by Your Name/Company.</p>
+            <p>This website is a demonstration environment for an AI Chatbot.</p>
+        </div>
+    </footer>
+
+    <div id="chatbot-container">
+        <div id="chatbot-window">
+            <div id="chatbot-header">
+                <h3>Aura Concierge ✨</h3>
+                <button id="close-chatbot">&times;</button>
+            </div>
+            <div id="chat-body">
+                </div>
+            <div id="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Type your message...">
+            </div>
+        </div>
+        <div id="chatbot-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.76c0 1.6 1.123 2.994 2.707 3.227 1.068.158 2.098.286 3.131.398 1.472.123 2.498.334 3.223.578.724.243 1.282.593 1.751 1.062 1.135 1.135 2.16 2.028 3.483 2.545.98.372 1.933.568 2.875.568 2.079 0 3.75-1.671 3.75-3.75 0-.85-.29-1.65-.794-2.28a5.13 5.13 0 00-1.042-1.042A5.13 5.13 0 0018 12.759v-1.503a5.13 5.13 0 00-1.042-1.042A5.13 5.13 0 0015.75 9h-1.503a5.13 5.13 0 00-1.042-1.042A5.13 5.13 0 0012 6.206V4.5c0-2.079-1.671-3.75-3.75-3.75S4.5 2.421 4.5 4.5v1.707c0 .596.224 1.17.624 1.624.4.453.945.824 1.549 1.097.603.273 1.29.467 2.01.603 1.442.274 2.532.557 3.078.857.546.3 1.02.713 1.368 1.218.348.504.552 1.11.552 1.758 0 .648-.204 1.254-.552 1.758-.348.505-.822.918-1.368 1.218-.546.3-1.636.583-3.078.857a12.54 12.54 0 01-2.01.603 3.205 3.205 0 01-1.549 1.097A2.25 2.25 0 014.5 14.26V12.76z" />
+            </svg>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
