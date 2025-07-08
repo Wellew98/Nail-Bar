@@ -120,7 +120,7 @@
         </div>
     </footer>
 
-    <script>
+   <script>
     window.addEventListener('mouseover', initLandbot, { once: true });
     window.addEventListener('touchstart', initLandbot, { once: true });
     var myLandbot;
@@ -130,7 +130,7 @@
         s.type = "module"
         s.async = true;
         s.addEventListener('load', function() {
-          // This is the corrected line:
+          // THIS IS THE CORRECT LINE. It uses "Livechat" instead of "Popup".
           myLandbot = new Landbot.Livechat({
             configUrl: 'https://storage.googleapis.com/landbot.pro/v3/H-3035112-DFODATSZV0IK3GLS/index.json',
           });
